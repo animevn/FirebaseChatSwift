@@ -158,6 +158,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="onButtonLoginPressed:" destination="A5k-yd-eXn" eventType="touchUpInside" id="pZ3-lp-Eul"/>
                                     <segue destination="eIG-c0-uad" kind="show" identifier="login_chat" id="DZu-Ua-4OD"/>
                                 </connections>
                             </button>
@@ -331,6 +332,7 @@
                                     <color key="titleColor" name="Navi"/>
                                 </state>
                                 <connections>
+                                    <action selector="onButtonRegisterPressed:" destination="OWP-Mi-SEP" eventType="touchUpInside" id="a59-G5-fFs"/>
                                     <segue destination="eIG-c0-uad" kind="show" identifier="register_chat" id="NEZ-rS-DP4"/>
                                 </connections>
                             </button>
@@ -395,6 +397,6 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="DZu-Ua-4OD"/>
+        <segue reference="NEZ-rS-DP4"/>
     </inferredMetricsTieBreakers>
 </document>
