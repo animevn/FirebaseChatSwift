@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510E2FBF23F11A9A0086C386 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 510E2FBE23F11A990086C386 /* GoogleService-Info.plist */; };
 		51B8816123F1074300F89B3A /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B8816023F1074300F89B3A /* MessageCell.swift */; };
 		51B8816323F1085700F89B3A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B8816223F1085700F89B3A /* Message.swift */; };
-		51B8816523F1148400F89B3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51B8816423F1148400F89B3A /* GoogleService-Info.plist */; };
 		51FCC9A423F0DD4800036BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FCC9A323F0DD4800036BFC /* AppDelegate.swift */; };
 		51FCC9A823F0DD4800036BFC /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FCC9A723F0DD4800036BFC /* Welcome.swift */; };
 		51FCC9AB23F0DD4800036BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FCC9A923F0DD4800036BFC /* Main.storyboard */; };
@@ -25,9 +25,9 @@
 
 /* Begin PBXFileReference section */
 		1FCB88EBDA54FEE113D7C1E7 /* libPods-FirebaseChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirebaseChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		510E2FBE23F11A990086C386 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		51B8816023F1074300F89B3A /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		51B8816223F1085700F89B3A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		51B8816423F1148400F89B3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		51FCC9A023F0DD4800036BFC /* FirebaseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51FCC9A323F0DD4800036BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51FCC9A723F0DD4800036BFC /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 				51FCC9B723F0DE6E00036BFC /* Controllers */,
 				51FCC9AC23F0DD4A00036BFC /* Assets.xcassets */,
 				51FCC9B123F0DD4A00036BFC /* Info.plist */,
-				51B8816423F1148400F89B3A /* GoogleService-Info.plist */,
+				510E2FBE23F11A990086C386 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseChat;
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 			files = (
 				51FCC9B023F0DD4A00036BFC /* Launch.storyboard in Resources */,
 				51FCC9C923F0EBD400036BFC /* MessageCell.xib in Resources */,
-				51B8816523F1148400F89B3A /* GoogleService-Info.plist in Resources */,
+				510E2FBF23F11A9A0086C386 /* GoogleService-Info.plist in Resources */,
 				51FCC9AD23F0DD4A00036BFC /* Assets.xcassets in Resources */,
 				51FCC9AB23F0DD4800036BFC /* Main.storyboard in Resources */,
 			);
